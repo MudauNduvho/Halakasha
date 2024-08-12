@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Halakasha  Recipes</title>
+    
+
+</head>
+<body>
+    
+   
+    
+    <nav>
+  <div class="section" id="home1">
+    <div class="main">
+        <div class="wrapper">
+</div>
+<div class="logo-container">
+    <img src="images/Small-Chef-Hat-Background-PNG-Image.png" alt="Logo" class="logo" loading="lazy">
+</div>
+    <div>
+        <ul><li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="ShisaNyama.html">ShisaNyama</a></li>
+        <li><a href="mzansiSpecial.html">Mzansi Specials</a></li>
+        <li><a href="Bakery.html">Bakery</a></li>
+        
+    </ul></div>
+
+    <div class="title">
+        <h1>HalaKasha</h1>
+        
+    </div>
+
+    <div class="slogan">
+        <h1>The South African Recipe Home</h1>
+        
+    </div>
+    
+</div>
+
+    <div></div>
+</div> 
+</nav>
+
+
+
+  <footer>
+    <p>&copy; 2024 Halakasha. Nduvho Mudau.</p>
+</footer>
+<script>
+    function toggleDescription(element) {
+        const description = element.querySelector('.description').innerHTML;
+        const descriptionBox = document.getElementById('description-text');
+
+        descriptionBox.innerHTML = description;
+
+        const allItems = document.querySelectorAll('.sunday-item');
+        allItems.forEach(item => {
+            item.style.transform = 'scale(1)'; // Reset scale of all items
+        });
+
+        element.style.transform = 'scale(1.1)'; // Slightly expand the clicked item
+
+        
+    }
+    
+</script>
+<script src="lazyload.js"></script>
+
+</body>
+</html>
